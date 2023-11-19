@@ -1,0 +1,27 @@
+{
+"ProjectName": "Fedora",
+"ArchiveRoot": "https://download.fedoraproject.org/pub/fedora/linux/releases",
+"MediaBaseUrl": "https://dl.fedoraproject.org/pub/alt/media/",
+"HtmlBaseUrl": "https://dl.fedoraproject.org/pub/alt/appstream-data/",
+"Backend": "rpmmd",
+"Suites":
+  {
+    "40":
+      {
+        "sections": ["Everything"],
+        "architectures": ["x86_64", "aarch64"]
+      },
+
+    "39":
+      {
+        "sections": ["Everything"],
+        "architectures": ["x86_64", "aarch64"]
+      },
+
+    "38":
+      {
+        "sections": ["Everything"],
+        "architectures": ["x86_64", "aarch64"]
+      }
+  }
+}
